@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- ? Preloader Start -->
-    <div id="preloader-active">
+    <!-- <div id="preloader-active">
       <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-inner position-relative">
           <div class="preloader-circle"></div>
@@ -39,8 +39,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- Preloader Start -->
+    </div> -->
+    <!-- Preloader End -->
     <header>
       <!--? Header Start -->
       <div class="header-area">
@@ -67,7 +67,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="doctor.html">Doctors</a></li>
                         <li><a href="department.html">Services</a></li>
-                        <li>
+                        <!-- <li>
                           <a href="blog.html">Blog</a>
                           <ul class="submenu">
                             <li><a href="blog.html">Blog</a></li>
@@ -76,13 +76,15 @@
                             </li>
                             <li><a href="elements.html">Element</a></li>
                           </ul>
-                        </li>
+                        </li> -->
                         <li><a href="contact.html">Contact</a></li>
                       </ul>
                     </nav>
                   </div>
                   <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                    <a href="#" class="btn header-btn">01654.066.456</a>
+                    <a href="tel:+919946699465" class="btn header-btn"
+                      >Call Us
+                    </a>
                   </div>
                 </div>
               </div>
@@ -122,7 +124,7 @@
                       Gastroenterology. With a focus on personalized care and
                       modern medicine, we’re here to support your health –
                       inside and out.
-                      <!-- <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Appointment <i class="ti-arrow-right"></i></a> -->
+                      <!-- <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Enquire <i class="ti-arrow-right"></i></a> -->
                     </p>
                   </div>
                 </div>
@@ -151,7 +153,7 @@
                       Gastroenterology. With a focus on personalized care and
                       modern medicine, we’re here to support your health –
                       inside and out.
-                      <!-- <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Appointment <i class="ti-arrow-right"></i></a> -->
+                      <!-- <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.5s">Enquire <i class="ti-arrow-right"></i></a> -->
                     </p>
                   </div>
                 </div>
@@ -169,30 +171,30 @@
               <div class="about-caption mb-50">
                 <!-- Section Tittle -->
                 <div class="section-tittle section-tittle2 mb-35">
-                  <span>About Our Company</span>
-                  <h2>Welcome To Our Hospital</h2>
+                  <span>About Us</span>
+                  <h2>What we provide</h2>
                 </div>
                 <p>
                   Welcome to Mohan Skin & Gastro Care, a dual-specialty clinic
                   dedicated to providing expert care in dermatology and
                   gastroenterology. Led by Dr.ANUSH MOHAN, an experienced
-                  Gastroenterologist, and Dr.VIDYA.S, a skilled
-                  Dermatologist, our clinic brings together compassionate care
-                  and modern medical expertise under one roof. Whether you're
-                  seeking relief from digestive issues or looking to enhance
-                  your skin health, we offer personalized treatments tailored to
-                  your unique needs — ensuring comfort, clarity, and confidence
-                  in your health journey.
+                  Gastroenterologist, and Dr.VIDYA.S, a skilled Dermatologist,
+                  our clinic brings together compassionate care and modern
+                  medical expertise under one roof. Whether you're seeking
+                  relief from digestive issues or looking to enhance your skin
+                  health, we offer personalized treatments tailored to your
+                  unique needs — ensuring comfort, clarity, and confidence in
+                  your health journey.
                 </p>
 
                 <div class="about-btn1 mb-30">
-                  <a href="about.html" class="btn about-btn"
+                  <a href="#spec_ialist" class="btn about-btn"
                     >Find Doctors .<i class="ti-arrow-right"></i
                   ></a>
                 </div>
                 <div class="about-btn1 mb-30">
-                  <a href="about.html" class="btn about-btn"
-                    >Appointment <i class="ti-arrow-right"></i
+                  <a href="#dep_art" class="btn about-btn"
+                    >Find Services <i class="ti-arrow-right"></i
                   ></a>
                 </div>
                 <!-- <div class="about-btn1 mb-30">
@@ -218,7 +220,7 @@
       </div>
       <!-- About  End-->
       <!--? department_area_start  -->
-      <div class="department_area section-padding2">
+      <div class="department_area section-padding2" id="dep_art">
         <div class="container">
           <!-- Section Tittle -->
           <div class="row">
@@ -239,13 +241,18 @@
                       class="nav-link active"
                       id="home-tab"
                       data-toggle="tab"
-                      href="#home"
+                      href="#DERMATOLOGY"
                       role="tab"
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      <i class="flaticon-teeth"></i>
-                      <h4>Dentistry</h4>
+                      <!-- <i class="flaticon-cream"></i> -->
+                      <img
+                        src="assets/icons/002.png"
+                        alt=""
+                        class="ology-icons"
+                      />
+                      <h4>DERMATOLOGY</h4>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -258,8 +265,14 @@
                       aria-controls="profile"
                       aria-selected="false"
                     >
-                      <i class="flaticon-cardiovascular"></i>
-                      <h4>Cardiology</h4>
+                      <!-- <i class="flaticon-cardiovascular"></i> -->
+                      <img
+                        src="assets/icons/003.png"
+                        alt=""
+                        class="ology-icons"
+                      />
+
+                      <h4>COSMETOLOGY</h4>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -272,8 +285,14 @@
                       aria-controls="contact"
                       aria-selected="false"
                     >
-                      <i class="flaticon-ear"></i>
-                      <h4>ENT Specialists</h4>
+                      <!-- <i class="flaticon-ear"></i> -->
+                      <img
+                        src="assets/icons/001.png"
+                        alt=""
+                        class="ology-icons"
+                      />
+
+                      <h4>LASER</h4>
                     </a>
                   </li>
                   <li class="nav-item">
@@ -286,11 +305,17 @@
                       aria-controls="contact"
                       aria-selected="false"
                     >
-                      <i class="flaticon-bone"></i>
-                      <h4>Astrology</h4>
+                      <!-- <i class="flaticon-bone"></i> -->
+                      <img
+                        src="assets/icons/004.png"
+                        alt=""
+                        class="ology-icons"
+                      />
+
+                      <h4>GASTROENTEROLOGY</h4>
                     </a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a
                       class="nav-link"
                       id="Neuroanatomy-tab"
@@ -317,16 +342,17 @@
                       <i class="flaticon-cell"></i>
                       <h4>Blood Screening</h4>
                     </a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
           </div>
+          <div id="det_ails">.</div>
           <div class="dept_main_info white-bg">
             <div class="tab-content" id="myTabContent">
               <div
                 class="tab-pane fade show active"
-                id="home"
+                id="DERMATOLOGY"
                 role="tabpanel"
                 aria-labelledby="home-tab"
               >
@@ -335,18 +361,14 @@
                   <div class="col-lg-7">
                     <div class="dept_info">
                       <h3>
-                        Dentist with surgical mask holding <br />
-                        scaler near patient
+                        DERMATOLOGY<br />
+                        
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Our dermatology department offers comprehensive skin care solutions tailored to all age groups. Whether you're dealing with acne, eczema, psoriasis, fungal infections, or chronic skin conditions, our expert dermatologists provide advanced diagnosis and personalized treatments. We also specialize in mole evaluation, skin cancer screening, and hyperpigmentation treatments using cutting-edge technology. Restore your skin’s health with medically approved methods that deliver lasting results.
                       </p>
                       <a href="#" class="dep-btn"
-                        >Appointment<i class="ti-arrow-right"></i
+                        >Enquire<i class="ti-arrow-right"></i
                       ></a>
                     </div>
                   </div>
@@ -369,18 +391,14 @@
                   <div class="col-lg-7">
                     <div class="dept_info">
                       <h3>
-                        Dentist with surgical mask holding <br />
+                        COSMETOLOGY<br />
                         scaler near patient
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Achieve radiant, youthful skin with our customized cosmetology services. Our treatments include anti-aging therapies, chemical peels, medical facials, microneedling, skin brightening, and hydration therapies tailored to your unique skin type. We focus on enhancing your natural features using non-invasive aesthetic procedures backed by clinical research and safe practices.
                       </p>
                       <a href="#" class="dep-btn"
-                        >Appointment<i class="ti-arrow-right"></i
+                        >Enquire<i class="ti-arrow-right"></i
                       ></a>
                     </div>
                   </div>
@@ -403,18 +421,14 @@
                   <div class="col-lg-7">
                     <div class="dept_info">
                       <h3>
-                        Dentist with surgical mask holding <br />
-                        scaler near patient
+                        LASER<br />
+                      
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Our clinic features the latest FDA-approved laser technology for precise and effective aesthetic procedures. We provide laser hair removal, tattoo removal, laser resurfacing for scars, stretch marks, freckles, and skin tightening treatments. Our certified professionals ensure a painless, safe experience with visible improvements in skin texture, tone, and clarity.
                       </p>
                       <a href="#" class="dep-btn"
-                        >Appointment<i class="ti-arrow-right"></i
+                        >Enquire<i class="ti-arrow-right"></i
                       ></a>
                     </div>
                   </div>
@@ -437,18 +451,14 @@
                   <div class="col-lg-7">
                     <div class="dept_info">
                       <h3>
-                        Dentist with surgical mask holding <br />
-                        scaler near patient
+                        GASTROENTEROLOGY <br />
+                        
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Our gastroenterology unit offers diagnosis and treatment of a wide range of digestive disorders, including acid reflux, GERD, irritable bowel syndrome (IBS), fatty liver, ulcers, gastritis, bloating, indigestion, and constipation. We also offer endoscopy and colonoscopy services for accurate diagnosis. Our experienced gastroenterologists work closely with each patient to design holistic, long-term gut health plans.
                       </p>
                       <a href="#" class="dep-btn"
-                        >Appointment<i class="ti-arrow-right"></i
+                        >Enquire<i class="ti-arrow-right"></i
                       ></a>
                     </div>
                   </div>
@@ -482,7 +492,7 @@
                         facilisis.
                       </p>
                       <a href="#" class="dep-btn"
-                        >Appointment<i class="ti-arrow-right"></i
+                        >Enquire<i class="ti-arrow-right"></i
                       ></a>
                     </div>
                   </div>
@@ -516,7 +526,7 @@
                         facilisis.
                       </p>
                       <a href="#" class="dep-btn"
-                        >Appointment<i class="ti-arrow-right"></i
+                        >Enquire<i class="ti-arrow-right"></i
                       ></a>
                     </div>
                   </div>
@@ -533,6 +543,69 @@
         </div>
       </div>
       <!-- depertment area end  -->
+      <!--? Team Start -->
+      <div class="team-area section-padding30" id="spec_ialist">
+        <div class="container">
+          <!-- Section Tittle -->
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section-tittle text-center mb-100">
+                <span>Our Providers</span>
+                <h2>Our Specialist</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- single Tem -->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-">
+              <div class="single-team mb-30">
+                <div class="team-img">
+                  <img src="assets/img/gallery/team2.png" alt="" />
+                </div>
+                <div class="team-caption">
+                  <h3><a href="#">Dr. ANUSH MOHAN</a></h3>
+                  <h4><a href="#">CONSULTANT GASTRO SURGEON </a></h4>
+                  <span
+                    >MBBS. MS. DNB (SURG). DNB (GASTROSURGERY) MRCS (ENGLAND).
+                    MNAMS. FIAGES. FIAMS</span
+                  >
+                  <!-- Team social -->
+                  <!-- <div class="team-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-globe"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-">
+              <div class="single-team mb-30">
+                <div class="team-img">
+                  <img src="assets/img/gallery/team1.png" alt="" />
+                </div>
+                <div class="team-caption">
+                  <h3><a href="#">Dr. VIDYA S</a></h3>
+                  <h4>
+                    <a href="#">CONSULTANT DERMATOLOGIST & COSMETOLOGIST</a>
+                  </h4>
+                  <span>MBBS. MD. DNB. FIAMS. MNAMS</span>
+                  <span></span>
+                  <!-- Team social -->
+                  <!-- <div class="team-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-globe"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Team End -->
       <!--? Gallery Area Start -->
       <div class="gallery-area section-padding30">
         <div class="container">
@@ -540,8 +613,8 @@
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="section-tittle text-center mb-100">
-                <span>Our Gellary</span>
-                <h2>Our Medical Camp</h2>
+                <span>Our Gallery</span>
+                <h2></h2>
               </div>
             </div>
           </div>
@@ -620,131 +693,128 @@
         </div>
       </div>
       <!-- Gallery Area End -->
-      <!--? All startups Start -->
-      <div class="all-starups-area testimonial-area fix">
-        <!-- left Contents -->
-        <div class="starups">
-          <!--? Testimonial Start -->
-          <div class="h1-testimonial-active">
-            <!-- Single Testimonial -->
-            <div class="single-testimonial text-center">
-              <!-- Testimonial Content -->
-              <div class="testimonial-caption">
-                <div class="testimonial-top-cap">
-                  <img src="assets/img/gallery/testimonial.png" alt="" />
-                  <p>
-                    “I am at an age where I just want to be fit and healthy our
-                    bodies are our responsibility! So start caring for your body
-                    and it will care for you. Eat clean it will care for yout
-                    hard.”
-                  </p>
-                </div>
-                <!-- founder -->
-                <div
-                  class="testimonial-founder d-flex align-items-center justify-content-center"
-                >
-                  <div class="founder-img">
-                    <img src="assets/img/gallery/Homepage_testi.png" alt="" />
-                  </div>
-                  <div class="founder-text">
-                    <span>Margaret Lawson</span>
-                    <p>Chif Photographer</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Testimonial End -->
-        </div>
-        <!--Right Contents  -->
-        <div class="starups-img"></div>
-      </div>
-      <!--All startups End -->
-      <!--? Team Start -->
-      <div class="team-area section-padding30">
-        <div class="container">
-          <!-- Section Tittle -->
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="section-tittle text-center mb-100">
-                <span>Our Doctors</span>
-                <h2>Our Specialist</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <!-- single Tem -->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-              <div class="single-team mb-30">
-                <div class="team-img">
-                  <img src="assets/img/gallery/team2.png" alt="" />
-                </div>
-                <div class="team-caption">
-                  <h3><a href="#">Alvin Maxwell</a></h3>
-                  <span>Creative UI Designer</span>
-                  <!-- Team social -->
-                  <div class="team-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fas fa-globe"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-              <div class="single-team mb-30">
-                <div class="team-img">
-                  <img src="assets/img/gallery/team3.png" alt="" />
-                </div>
-                <div class="team-caption">
-                  <h3><a href="#">Maria Smith</a></h3>
-                  <span>Agency Manager</span>
-                  <!-- Team social -->
-                  <div class="team-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fas fa-globe"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-              <div class="single-team mb-30">
-                <div class="team-img">
-                  <img src="assets/img/gallery/team1.png" alt="" />
-                </div>
-                <div class="team-caption">
-                  <h3><a href="#">Angela Doe</a></h3>
-                  <span>Designer</span>
-                  <!-- Team social -->
-                  <div class="team-social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fas fa-globe"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+      <div class="review-form-tittle">
+        <div class="col-xl-8">
+          <div class="section-tittle section-tittle3">
+            <span>Checkout what our visitors say..</span>
+            <h2>Reviews</h2>
           </div>
         </div>
       </div>
-      <!-- Team End -->
+
+      <div class="new-slider">
+        <div class="slide">
+          <img
+            src="assets/icons/user.png"
+            height="40"
+            width="40"
+            alt="Image 1"
+          />
+          <div class="slide-content">
+            <h3>
+              "Extremely professional and caring service. My skin issues were
+              resolved in just a few visits."
+            </h3>
+            <p>- Anjali R.</p>
+          </div>
+          <img src="assets/icons/5star.png" height="40" alt="" />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/icons/user.png"
+            height="40"
+            width="40"
+            alt="Image 2"
+          />
+          <div class="slide-content">
+            <h3>
+              "The gastro specialist listened patiently and helped me find
+              long-awaited relief. Highly recommend!"
+            </h3>
+            <p>- Anonymous User</p>
+          </div>
+          <img src="assets/icons/4starr.png" height="40" alt="" />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/icons/user.png"
+            height="40"
+            width="40"
+            alt="Image 3"
+          />
+          <div class="slide-content">
+            <h3>
+              "Small clinic, but the attention to detail and care was top-notch.
+              Felt completely at ease."
+            </h3>
+            <p>- Meera Nandhini</p>
+          </div>
+          <img src="assets/icons/5star.png" height="40" alt="" />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/icons/user.png"
+            height="40"
+            width="40"
+            alt="Image 1"
+          />
+          <div class="slide-content">
+            <h3>
+              "They diagnosed a condition others missed. So thankful for their
+              expertise and kindness."
+            </h3>
+            <p>- Rajesh Ravinadan</p>
+          </div>
+          <img src="assets/icons/4starr.png" height="40" alt="" />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/icons/user.png"
+            height="40"
+            width="40"
+            alt="Image 2"
+          />
+          <div class="slide-content">
+            <h3>
+              "The clinic is clean, well-managed, and the doctors genuinely care
+              about your health."
+            </h3>
+            <p>- Neha Philip</p>
+          </div>
+          <img src="assets/icons/5star.png" height="40" alt="" />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/icons/user.png"
+            height="40"
+            width="40"
+            alt="Image 3"
+          />
+          <div class="slide-content">
+            <h3>
+              "Best dermatology experience I've had in years. My skin has never
+              looked better!"
+            </h3>
+            <p>- Anonymous User</p>
+          </div>
+          <img src="assets/icons/5star.png" height="40" alt="" />
+        </div>
+      </div>
+
       <!--? Contact form Start -->
       <div class="contact-form-main">
         <div class="container">
           <div class="row justify-content-end">
-            <div class="col-xl-7 col-lg-7">
+            <div class="col-xl-12 col-lg-12">
               <div class="form-wrapper">
                 <!--Section Tittle  -->
                 <div class="form-tittle">
                   <div class="row">
                     <div class="col-xl-12">
                       <div class="section-tittle section-tittle2">
-                        <span>Appointment Apply Form</span>
-                        <h2>Appointment Form</h2>
+                        <span>Feel free to contact us...</span>
+                        <h2>Enquire Form</h2>
                       </div>
                     </div>
                   </div>
@@ -765,11 +835,12 @@
                     <div class="col-lg-6 col-md-6 mb-30">
                       <div class="select-itms">
                         <select name="select" id="select2">
-                          <option value="">Health Law</option>
-                          <option value="">saiful islam</option>
-                          <option value="">Arafath Miya</option>
-                          <option value="">Shakil Miya</option>
-                          <option value="">Tamim Sharker</option>
+                          <option value="">Medical concerns</option>
+                          <option value="">Skin, Hair & Nail Disorders</option>
+                          <option value="">Pigmentation & Aesthetic Concerns</option>
+                          <option value="">Digestive & Gut Issues</option>
+                          <option value="">Infectious Skin Conditions</option>
+                          <option value="">Colorectal & Anal Disorders</option>
                         </select>
                       </div>
                     </div>
@@ -803,9 +874,9 @@
           </div>
         </div>
         <!-- contact left Img-->
-        <div class="from-left d-none d-lg-block">
+        <!-- <div class="from-left d-none d-lg-block">
           <img src="assets/img/gallery/contact_form.png" alt="" />
-        </div>
+        </div> -->
       </div>
       <!-- Contact form End -->
       <!--? gallery Products Start -->
@@ -889,11 +960,10 @@
       </div>
       <!-- gallery Products End -->
       <!--? Blog start -->
-      <div class="home_blog-area section-padding30">
+      <!-- <div class="home_blog-area section-padding30">
         <div class="container">
           <div class="row justify-content-sm-center">
             <div class="cl-xl-7 col-lg-8 col-md-10">
-              <!-- Section Tittle -->
               <div class="section-tittle text-center mb-70">
                 <span>Oure recent news</span>
                 <h2>OurNews From Blog</h2>
@@ -960,7 +1030,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Blog End -->
     </main>
     <footer>
@@ -972,36 +1042,82 @@
         <div class="container">
           <div class="footer-top footer-padding">
             <div class="row d-flex justify-content-between">
-              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 pl-10 pr-10">
                 <div class="single-footer-caption mb-50">
                   <!-- logo -->
                   <div class="footer-logo">
                     <a href="index.html"
                       ><img src="assets/img/logo/logo2_footer.png" alt=""
                     /></a>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7892.688670752523!2d76.988492!3d8.4658571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb0aa544b011%3A0xd53a1d0f0cc2cb7b!2sMohan%20Skin%20%26%20Gastro%20Care!5e0!3m2!1sen!2sin!4v1744451392704!5m2!1sen!2sin"
+                      width="360"
+                      height="300"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-5">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 pl-10 pr-10">
                 <div class="single-footer-caption mb-50">
                   <div class="footer-tittle">
-                    <h4>About Us</h4>
+                    <u> <h4>Consultation Time</h4></u>
                     <div class="footer-pera">
-                      <p class="info1">
-                        Lorem igpsum doldfor sit amet, adipiscing elit, sed do
-                        eiusmod tempor cergelit rgh.
-                      </p>
-                      <p class="info1">
-                        Lorem ipsum dolor sit amet, adipiscing elit.
+                      <table
+                        class="info1"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="8"
+                      >
+                        <tbody>
+                          <tr>
+                            <td><s>Sunday</s></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Monday</td>
+                            <td>3 PM – 6 PM</td>
+                          </tr>
+                          <tr>
+                            <td>Tuesday</td>
+                            <td>3 PM – 6 PM</td>
+                          </tr>
+                          <tr>
+                            <td>Wednesday</td>
+                            <td>3 PM – 6 PM</td>
+                          </tr>
+                          <tr>
+                            <td>Thursday</td>
+                            <td>3 PM – 6 PM</td>
+                          </tr>
+                          <tr>
+                            <td>Friday</td>
+                            <td>3 PM – 6 PM</td>
+                          </tr>
+                          <tr>
+                            <td>Saturday</td>
+                            <td>3 PM – 6 PM</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <p class="info">
+                        Don’t hesitate to give us a call if anything urgent
+                        comes up—we’re here to help!
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 pl-10 pr-10">
                 <div class="single-footer-caption mb-50">
                   <div class="footer-number mb-50">
-                    <h4><span>+564 </span>7885 3222</h4>
+                    <u><h3>CONTACT US</h3></u>
+                    <br />
+                    <h4><span>+91 </span>99466 99465</h4>
                     <p>youremail@gmail.com</p>
                   </div>
                   <!-- Form -->
