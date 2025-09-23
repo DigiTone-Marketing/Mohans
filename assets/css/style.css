@@ -358,7 +358,7 @@ hr {
 } */
 
 .btn-grad:hover {
-  background-position: right center; 
+  background-position: right center;
   color: #fff;
   text-decoration: none;
 }
@@ -380,7 +380,8 @@ hr {
     #b31317 0%,
     #e65245 51%,
     #e43a15 100%
-  );}
+  );
+}
 .btn i {
   color: #ffffff;
   font-size: 13px;
@@ -2308,13 +2309,13 @@ hr {
   }
 }
 .slider-area2 {
-  background-image: url(../img/hero/hero2.png);
+  background-image: url(../img/hero/heri1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/hero/h1_hero.png);
+  background-image: url(../img/hero/heri1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2364,10 +2365,11 @@ hr {
   font-size: 70px;
   font-weight: 900;
   margin-bottom: 14px;
-  color: #102039;
+  color: #ffffff;
   line-height: 1.2;
   margin-bottom: 30px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000000a6;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .hero__caption h1 {
@@ -2389,7 +2391,7 @@ hr {
 }
 @media (max-width: 575px) {
   .slider-area .hero__caption h1 {
-    font-size: 29px;
+    font-size: 12vw;
     line-height: 1.5;
   }
 }
@@ -2398,10 +2400,11 @@ hr {
 }
 .slider-area .hero__caption p {
   font-size: 18px;
-  color: #212025;
+  color: #ffffff;
   font-family: "Muli", sans-serif;
   margin-bottom: 50px;
   padding-right: 35px;
+  text-shadow: 2px 2px 2px #0d0d0d;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .hero__caption p {
@@ -2676,7 +2679,7 @@ hr {
   justify-content: center;
   gap: 1rem;
 }
-.ology-icons{
+.ology-icons {
   height: 70px;
   width: 70px;
   aspect-ratio: 1;
@@ -3036,7 +3039,7 @@ hr {
   }
 }
 .contact-form-main .form-wrapper {
-  background: #f7fdff;
+  background: black;
 }
 .contact-form-main #contact-form {
   padding: 61px 51px 115px 69px;
@@ -3059,7 +3062,7 @@ hr {
   padding: 10px 25px;
   padding-right: 30px;
   border: 0;
-  color: #112957;
+  color: #e3e6ec;
   font-weight: 500;
   text-transform: capitalize;
   border-radius: 0px;
@@ -3109,7 +3112,7 @@ hr {
   color: #a3a3a3;
 }
 .contact-form-main #contact-form textarea {
-  color: #112957;
+  color: #e3e6ec;
   background: none;
   font-weight: 500;
   letter-spacing: 2px;
@@ -3384,7 +3387,6 @@ hr {
   margin-bottom: 35px;
   color: #bdbdbd;
   font-size: 14px;
-
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
@@ -5979,25 +5981,23 @@ del {
   margin-bottom: 10px;
 }
 
-.review-form-tittle h2{
+.review-form-tittle h2 {
   text-align: center;
 }
-.section-tittle3{
+.section-tittle3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-
 }
-.slick-track{
+.slick-track {
   /* background: red !important; */
 }
-.new-slider{
+.new-slider {
   margin: auto;
   margin-bottom: 100px;
   width: 100%;
-
 }
 /* @media screen and (min-width:300px) and (max-width:600){
   .new-slider{
@@ -6009,7 +6009,7 @@ del {
     width: 100%;
   }
 } */
-.new-slider .slide{
+.new-slider .slide {
   display: flex;
   gap: 10px;
   flex-direction: column;
@@ -6031,6 +6031,63 @@ del {
   /* border: 1px solid #7c7c7e3f; */
   /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
-.new-slider .slide p{
+.new-slider .slide p {
   color: white;
+}
+
+#whatsapp-fab {
+  position: fixed;
+  bottom: 22px;
+  z-index: 2;
+  left: 14px;
+  width: 50px;
+  /* height: 42px; */
+  aspect-ratio: 1;
+  background: #007b27;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#whatsapp-fab i {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+}
+.responsive-logo a {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  align-items: center;
+  justify-content: flex-start;
+}
+.list-treatments {
+  font-size: 16px;
+  color: #64676c;
+  line-height: 1.6;
+  padding: 0px 20px;
+  li {
+    list-style: circle;
+  }
+}
+.contact-p {
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.team-caption{
+  height: 160px;
+}
+.doc-description {
+  font-size: 16px !important;
+}
+.doc-description2 {
+  font-size: 16px !important;
 }
