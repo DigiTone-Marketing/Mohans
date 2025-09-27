@@ -10,6 +10,7 @@ html {
   --mohans-brown-color: #212529;
   --mohans-navy-color: #ffffff;
   --mohans-text-dark: #0e2031;
+  --mohans-cerulean-text: #265a8a ;
 }
 
 .white-bg {
@@ -377,12 +378,13 @@ hr {
   background-size: 200%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(
+  background-color: var(--mohans-cerulean-text);
+  /* background-image: linear-gradient(
     to right,
     var(--mohans-light-teal) 0%,
     #265a8a 51%,
     #26598a 100%
-  );
+  ); */
 }
 .btn i {
   color: #ffffff;
@@ -2055,7 +2057,7 @@ hr {
 }
 @media (max-width: 575px) {
   .section-tittle h2 {
-    text-align: left;
+    text-align: center;
     font-size: 27px;
   }
 }
@@ -2069,12 +2071,12 @@ hr {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-tittle2 h2 {
-    text-align: left;
+    text-align: center;
   }
 }
 @media (max-width: 575px) {
   .section-tittle2 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 27px;
   }
 }
@@ -2311,13 +2313,13 @@ hr {
   }
 }
 .slider-area2 {
-  background-image: url(../img/hero/heri1.png);
+  /* background-image: url(../img/hero/heri1.png); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slider-area {
   margin-top: -1px;
-  background-image: url(../img/hero/heri1.png);
+  /* background-image: url(../img/hero/heri1.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2623,6 +2625,7 @@ hr {
   background-image: -webkit-linear-gradient(0deg, #01a49f 0%, #26598a 100%);
   background-image: -ms-linear-gradient(0deg, #01a49f 0%, #26598a 100%);
   padding: 172px 103px 104px 111px;
+  height: 100%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .department_area .dept_main_info .dept_info {
@@ -3035,7 +3038,7 @@ hr {
   height: 837px;
 }
 .contact-form-main .form-tittle {
-  padding: 111px 51px 0px 67px;
+  padding: 50px 51px 0px 67px;
 }
 @media (max-width: 575px) {
   .contact-form-main .form-tittle {
@@ -3043,7 +3046,7 @@ hr {
   }
 }
 .contact-form-main .form-wrapper {
-  background: var(--mohans-dark-teal);
+  background: var(--mohans-light-teal);
   border-radius: 20px;
 }
 .contact-form-main #contact-form {
@@ -3094,7 +3097,7 @@ hr {
 }
 
 .contact-form-main #contact-form textarea::placeholder {
-  color: #e3e6ec;
+  color: #e3e6ec !important;
   font-size: 16px;
 }
 
@@ -3337,7 +3340,7 @@ hr {
 }
 .team-area .single-team .team-caption {
   padding: 1rem;
-  background: #fff;
+  background: var(--mohans-light-teal);
   border: 1px solid #ffeff9;
   border-top: 0;
   -webkit-transition: 0.4s;
@@ -3355,7 +3358,7 @@ hr {
   margin-bottom: 30px;
 }
 .team-area .single-team .team-caption h3 a {
-  color: #161e46;
+  color: #fff;
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 10px;
@@ -3374,7 +3377,7 @@ hr {
   color: #fff;
 }
 .team-area .single-team .team-caption:hover h3 a {
-  color: #fff;
+  color: #161e46;
 }
 .team-area .single-team .team-caption:hover .team-social a {
   color: #fff;
@@ -6027,7 +6030,7 @@ del {
   margin-top: 100px;
 }
 .slick-track {
-  /* background: red !important; */
+  background: var(--mohans-light-teal) !important;
 }
 .new-slider {
   margin: auto;
@@ -6060,11 +6063,11 @@ del {
   justify-content: center;
   position: relative;
   flex-direction: column;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     var(--mohans-dark-teal),
     var(--mohans-dark-teal)
-  );
+  ); */
   cursor: pointer;
   height: 250px;
   /* border: 1px solid #7c7c7e3f; */
