@@ -6262,3 +6262,9 @@ del {
 .slick-list{
   border-radius: 20px;
 }
+
+@media screen and (min-width:500px) {
+  .lg-d-no{
+ display: none; 
+}
+}
