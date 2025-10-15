@@ -773,18 +773,25 @@
   <img src="assets/img/custom/gal/g2.jpg" alt="Gallery Image 2" />
   <img src="assets/img/custom/gal/g3.jpg" alt="Gallery Image 3" />
   <img src="assets/img/custom/gal/g4.jpg" alt="Gallery Image 4" />
-  <img src="assets/img/custom/gal/g5.jpg" alt="Gallery Image 5" />
-  <img src="assets/img/custom/gal/g6.jpg" alt="Gallery Image 6" />
   <img src="assets/img/custom/gal/g7.webp" alt="Gallery Image 7" />
   <img src="assets/img/custom/gal/g8.webp" alt="Gallery Image 8" />
-  <img src="assets/img/custom/gal/g9.webp" alt="Gallery Image 9" />
-  <img src="assets/img/custom/gal/g10.webp" alt="Gallery Image 10" />
-  <img src="assets/img/custom/gal/g11.webp" alt="Gallery Image 11" />
   <img src="assets/img/custom/gal/g12.webp" alt="Gallery Image 12" />
+
+  <img src="assets/img/custom/gal/g10.webp" alt="Gallery Image 10" />
+  <img src="assets/img/custom/gal/g6.jpg" alt="Gallery Image 6" />
+  <img src="assets/img/custom/gal/g5.jpg" alt="Gallery Image 5" />
+  <img src="assets/img/custom/gal/g11.webp" alt="Gallery Image 11" />
+  
+  <img src="assets/img/custom/gal/g9.webp" alt="Gallery Image 9" />
   <img src="assets/img/custom/gal/g13.webp" alt="Gallery Image 13" />
   <img src="assets/img/custom/gal/g14.webp" alt="Gallery Image 14" />
 </div>
 
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="" alt="Expanded View" />
+</div>
 
 
         <!-- </div> -->
@@ -1325,6 +1332,32 @@ height="300"
     </script>
     <!-- Link your JS at the bottom (recommended) -->
 <script src="./assets/js/custom.js"></script>
+<script>
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.querySelector(".lightbox-img");
+  const closeBtn = document.querySelector(".lightbox .close");
+
+  document.querySelectorAll(".gallery-columns img").forEach((img) => {
+    img.addEventListener("click", () => {
+      lightbox.style.display = "flex";
+      lightboxImg.src = img.src;
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+
+  // close on background click
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) lightbox.style.display = "none";
+  });
+
+  // close on Esc key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") lightbox.style.display = "none";
+  });
+</script>
 
   </body>
 </html>
